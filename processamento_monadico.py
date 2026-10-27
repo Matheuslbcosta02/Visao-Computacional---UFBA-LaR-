@@ -27,7 +27,7 @@ media_double = np.mean(imagem_double)
 print(f'Imagem uint8: min: {minima_uint8}, max: {maxima_uint8}, media: {media_uint8}')
 print(f'Imagem double: min: {minima_double}, max: {maxima_double}, media: {media_double}')
 
-beta_brilho_uint8 = 60
+beta_brilho_uint8 = 80
 beta_brilho_double = beta_brilho_uint8/255
 
 #aplicar brilho
